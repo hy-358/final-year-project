@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw NASA OMNI input data (approximately 181 MB); see README for retrieval.
+Storm_building/omni2_all_years.dat.txt
+
+# Locally generated experiment artifacts, except the published reference results.
+Testing/*.csv
+Testing/*.pkl
+!Testing/Results_1_3_5.pkl
+!Testing/Results_96.pkl
+!Testing/batch_output_96.pkl
+!Testing/storm_dataset_96.csv
